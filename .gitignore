@@ -25,7 +25,6 @@ build/
 
 # Project specific
 *.log
-*.csv
 !vending_machine_sales.csv  # Keep the main data file
 
 # OS specific

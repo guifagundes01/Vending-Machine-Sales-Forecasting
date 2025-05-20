@@ -1,0 +1,56 @@
+KitKat - Crisp Wafers - Exponential Smoothing Analysis
+===================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31    22
+2022-02-28    16
+2022-03-31    26
+2022-04-30    32
+2022-05-31    34
+2022-06-30    36
+2022-07-31    59
+2022-08-31    42
+2022-09-30     7
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-01): 22 units
+Period 2 (2022-02): 22 units
+Period 3 (2022-03): 21 units
+Period 4 (2022-04): 22 units
+Period 5 (2022-05): 25 units
+Period 6 (2022-06): 28 units
+Period 7 (2022-07): 31 units
+Period 8 (2022-08): 39 units
+Period 9 (2022-09): 40 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-01): 22 units
+Period 2 (2022-02): 22 units
+Period 3 (2022-03): 19 units
+Period 4 (2022-04): 23 units
+Period 5 (2022-05): 28 units
+Period 6 (2022-06): 31 units
+Period 7 (2022-07): 34 units
+Period 8 (2022-08): 47 units
+Period 9 (2022-09): 45 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-01): 22 units
+Period 2 (2022-02): 16 units
+Period 3 (2022-03): 10 units
+Period 4 (2022-04): 15 units
+Period 5 (2022-05): 23 units
+Period 6 (2022-06): 29 units
+Period 7 (2022-07): 35 units
+Period 8 (2022-08): 53 units
+Period 9 (2022-09): 52 units
+
+
+Forecast for next month (period 10):
+Simple Exponential Smoothing (alpha=0.3): 30 units
+Simple Exponential Smoothing (alpha=0.5): 26 units
+Holt's Method (alpha=0.5, beta=0.3): 27 units

@@ -1,0 +1,39 @@
+Coca Cola - Regular Quantity Forecast
+=======================================
+
+Monthly Quantity:
+TransDate
+2022-06-30    12
+2022-07-31    76
+2022-08-31    68
+2022-09-30    41
+2022-10-31    66
+2022-11-30    80
+2022-12-31    10
+Freq: ME
+
+3-Month Moving Average:
+TransDate
+2022-06-30          NaN
+2022-07-31          NaN
+2022-08-31    52.000000
+2022-09-30    61.666667
+2022-10-31    58.333333
+2022-11-30    62.333333
+2022-12-31    52.000000
+Freq: ME
+
+5-Month Moving Average:
+TransDate
+2022-06-30     NaN
+2022-07-31     NaN
+2022-08-31     NaN
+2022-09-30     NaN
+2022-10-31    52.6
+2022-11-30    66.2
+2022-12-31    53.0
+Freq: ME
+
+Forecast for next month:
+3-Month MA Forecast: 52 units
+5-Month MA Forecast: 53 units

@@ -1,0 +1,23 @@
+Coca Cola Zero Sugar - Exponential Smoothing Analysis
+==================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31     52
+2022-02-28     52
+2022-03-31     68
+2022-04-30    101
+2022-05-31     86
+2022-06-30     65
+2022-07-31     69
+2022-08-31     32
+2022-09-30     36
+2022-10-31     37
+2022-11-30     23
+2022-12-31     40
+Freq: ME
+
+Forecast for next month (period 13):
+Simple Exponential Smoothing (alpha=0.3): 41 units
+Simple Exponential Smoothing (alpha=0.5): 36 units
+Holt's Method (alpha=0.5, beta=0.3): 24 units

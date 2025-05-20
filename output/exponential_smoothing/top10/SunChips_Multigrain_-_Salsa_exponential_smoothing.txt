@@ -1,0 +1,68 @@
+SunChips Multigrain - Salsa - Exponential Smoothing Analysis
+=========================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31    12
+2022-02-28     4
+2022-03-31    13
+2022-04-30    18
+2022-05-31     8
+2022-06-30    19
+2022-07-31     9
+2022-08-31    28
+2022-09-30    35
+2022-10-31    28
+2022-11-30    18
+2022-12-31    13
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-01): 12 units
+Period 2 (2022-02): 12 units
+Period 3 (2022-03): 10 units
+Period 4 (2022-04): 11 units
+Period 5 (2022-05): 13 units
+Period 6 (2022-06): 12 units
+Period 7 (2022-07): 14 units
+Period 8 (2022-08): 13 units
+Period 9 (2022-09): 17 units
+Period 10 (2022-10): 23 units
+Period 11 (2022-11): 25 units
+Period 12 (2022-12): 23 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-01): 12 units
+Period 2 (2022-02): 12 units
+Period 3 (2022-03): 8 units
+Period 4 (2022-04): 11 units
+Period 5 (2022-05): 15 units
+Period 6 (2022-06): 12 units
+Period 7 (2022-07): 16 units
+Period 8 (2022-08): 13 units
+Period 9 (2022-09): 21 units
+Period 10 (2022-10): 28 units
+Period 11 (2022-11): 28 units
+Period 12 (2022-12): 23 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-01): 12 units
+Period 2 (2022-02): 4 units
+Period 3 (2022-03): -4 units
+Period 4 (2022-04): 0 units
+Period 5 (2022-05): 6 units
+Period 6 (2022-06): 5 units
+Period 7 (2022-07): 12 units
+Period 8 (2022-08): 10 units
+Period 9 (2022-09): 22 units
+Period 10 (2022-10): 33 units
+Period 11 (2022-11): 34 units
+Period 12 (2022-12): 28 units
+
+
+Forecast for next month (period 13):
+Simple Exponential Smoothing (alpha=0.3): 20 units
+Simple Exponential Smoothing (alpha=0.5): 18 units
+Holt's Method (alpha=0.5, beta=0.3): 20 units

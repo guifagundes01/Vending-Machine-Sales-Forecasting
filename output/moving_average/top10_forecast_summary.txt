@@ -1,0 +1,63 @@
+Top 10 Products Forecast Summary
+==============================
+
+
+Product: Coca Cola - Zero Sugar
+--------------------------------
+Total Quantity Sold: 661
+3-Month MA Forecast: 34 units
+5-Month MA Forecast: 34 units
+
+Product: Monster Energy Original
+---------------------------------
+Total Quantity Sold: 516
+3-Month MA Forecast: 30 units
+5-Month MA Forecast: 38 units
+
+Product: Poland Springs Water
+------------------------------
+Total Quantity Sold: 457
+3-Month MA Forecast: 41 units
+5-Month MA Forecast: 34 units
+
+Product: Coca Cola - Regular
+-----------------------------
+Total Quantity Sold: 353
+3-Month MA Forecast: 52 units
+5-Month MA Forecast: 53 units
+
+Product: Sunkist Soda - Orange
+-------------------------------
+Total Quantity Sold: 290
+3-Month MA Forecast: 20 units
+5-Month MA Forecast: 21 units
+
+Product: KitKat - Crisp Wafers
+-------------------------------
+Total Quantity Sold: 274
+3-Month MA Forecast: 36 units
+5-Month MA Forecast: 36 units
+
+Product: Red Bull - Original
+-----------------------------
+Total Quantity Sold: 239
+3-Month MA Forecast: 21 units
+5-Month MA Forecast: 21 units
+
+Product: SunChips Multigrain - Harvest Cheddar
+-----------------------------------------------
+Total Quantity Sold: 235
+3-Month MA Forecast: 21 units
+5-Month MA Forecast: 27 units
+
+Product: CheezIt - Original
+----------------------------
+Total Quantity Sold: 205
+3-Month MA Forecast: 18 units
+5-Month MA Forecast: 19 units
+
+Product: SunChips Multigrain - Salsa
+-------------------------------------
+Total Quantity Sold: 205
+3-Month MA Forecast: 20 units
+5-Month MA Forecast: 25 units

@@ -1,0 +1,68 @@
+CheezIt - Original - Exponential Smoothing Analysis
+================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31     3
+2022-02-28     8
+2022-03-31    12
+2022-04-30    20
+2022-05-31     5
+2022-06-30    39
+2022-07-31    23
+2022-08-31    30
+2022-09-30    11
+2022-10-31    14
+2022-11-30    16
+2022-12-31    24
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-01): 3 units
+Period 2 (2022-02): 3 units
+Period 3 (2022-03): 5 units
+Period 4 (2022-04): 7 units
+Period 5 (2022-05): 11 units
+Period 6 (2022-06): 10 units
+Period 7 (2022-07): 19 units
+Period 8 (2022-08): 20 units
+Period 9 (2022-09): 23 units
+Period 10 (2022-10): 20 units
+Period 11 (2022-11): 18 units
+Period 12 (2022-12): 18 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-01): 3 units
+Period 2 (2022-02): 3 units
+Period 3 (2022-03): 6 units
+Period 4 (2022-04): 9 units
+Period 5 (2022-05): 15 units
+Period 6 (2022-06): 10 units
+Period 7 (2022-07): 25 units
+Period 8 (2022-08): 24 units
+Period 9 (2022-09): 27 units
+Period 10 (2022-10): 19 units
+Period 11 (2022-11): 17 units
+Period 12 (2022-12): 17 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-01): 3 units
+Period 2 (2022-02): 8 units
+Period 3 (2022-03): 13 units
+Period 4 (2022-04): 18 units
+Period 5 (2022-05): 24 units
+Period 6 (2022-06): 17 units
+Period 7 (2022-07): 34 units
+Period 8 (2022-08): 33 units
+Period 9 (2022-09): 35 units
+Period 10 (2022-10): 24 units
+Period 11 (2022-11): 18 units
+Period 12 (2022-12): 16 units
+
+
+Forecast for next month (period 13):
+Simple Exponential Smoothing (alpha=0.3): 20 units
+Simple Exponential Smoothing (alpha=0.5): 21 units
+Holt's Method (alpha=0.5, beta=0.3): 20 units

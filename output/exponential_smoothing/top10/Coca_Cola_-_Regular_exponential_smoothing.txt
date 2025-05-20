@@ -1,0 +1,48 @@
+Coca Cola - Regular - Exponential Smoothing Analysis
+=================================================
+
+Monthly Quantity:
+TransDate
+2022-06-30    12
+2022-07-31    76
+2022-08-31    68
+2022-09-30    41
+2022-10-31    66
+2022-11-30    80
+2022-12-31    10
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-06): 12 units
+Period 2 (2022-07): 12 units
+Period 3 (2022-08): 32 units
+Period 4 (2022-09): 43 units
+Period 5 (2022-10): 42 units
+Period 6 (2022-11): 50 units
+Period 7 (2022-12): 59 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-06): 12 units
+Period 2 (2022-07): 12 units
+Period 3 (2022-08): 44 units
+Period 4 (2022-09): 56 units
+Period 5 (2022-10): 49 units
+Period 6 (2022-11): 58 units
+Period 7 (2022-12): 69 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-06): 12 units
+Period 2 (2022-07): 76 units
+Period 3 (2022-08): 140 units
+Period 4 (2022-09): 158 units
+Period 5 (2022-10): 135 units
+Period 6 (2022-11): 126 units
+Period 7 (2022-12): 122 units
+
+
+Forecast for next month (period 8):
+Simple Exponential Smoothing (alpha=0.3): 44 units
+Simple Exponential Smoothing (alpha=0.5): 40 units
+Holt's Method (alpha=0.5, beta=0.3): 68 units

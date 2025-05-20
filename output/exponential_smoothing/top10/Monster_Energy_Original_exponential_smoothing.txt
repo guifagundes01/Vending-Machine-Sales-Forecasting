@@ -1,0 +1,68 @@
+Monster Energy Original - Exponential Smoothing Analysis
+=====================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31    41
+2022-02-28    37
+2022-03-31    40
+2022-04-30    61
+2022-05-31    31
+2022-06-30    46
+2022-07-31    73
+2022-08-31    56
+2022-09-30    43
+2022-10-31    35
+2022-11-30    29
+2022-12-31    24
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-01): 41 units
+Period 2 (2022-02): 41 units
+Period 3 (2022-03): 40 units
+Period 4 (2022-04): 40 units
+Period 5 (2022-05): 47 units
+Period 6 (2022-06): 42 units
+Period 7 (2022-07): 43 units
+Period 8 (2022-08): 52 units
+Period 9 (2022-09): 54 units
+Period 10 (2022-10): 51 units
+Period 11 (2022-11): 46 units
+Period 12 (2022-12): 41 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-01): 41 units
+Period 2 (2022-02): 41 units
+Period 3 (2022-03): 39 units
+Period 4 (2022-04): 40 units
+Period 5 (2022-05): 51 units
+Period 6 (2022-06): 41 units
+Period 7 (2022-07): 44 units
+Period 8 (2022-08): 59 units
+Period 9 (2022-09): 58 units
+Period 10 (2022-10): 51 units
+Period 11 (2022-11): 43 units
+Period 12 (2022-12): 36 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-01): 41 units
+Period 2 (2022-02): 37 units
+Period 3 (2022-03): 33 units
+Period 4 (2022-04): 34 units
+Period 5 (2022-05): 49 units
+Period 6 (2022-06): 39 units
+Period 7 (2022-07): 42 units
+Period 8 (2022-08): 62 units
+Period 9 (2022-09): 63 units
+Period 10 (2022-10): 54 units
+Period 11 (2022-11): 43 units
+Period 12 (2022-12): 32 units
+
+
+Forecast for next month (period 13):
+Simple Exponential Smoothing (alpha=0.3): 36 units
+Simple Exponential Smoothing (alpha=0.5): 30 units
+Holt's Method (alpha=0.5, beta=0.3): 23 units

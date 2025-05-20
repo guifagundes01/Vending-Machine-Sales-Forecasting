@@ -1,0 +1,68 @@
+Coca Cola Zero Sugar - Exponential Smoothing Analysis
+==================================================
+
+Monthly Quantity:
+TransDate
+2022-01-31     52
+2022-02-28     52
+2022-03-31     68
+2022-04-30    101
+2022-05-31     86
+2022-06-30     65
+2022-07-31     69
+2022-08-31     32
+2022-09-30     36
+2022-10-31     37
+2022-11-30     23
+2022-12-31     40
+Freq: ME
+
+Monthly Forecasts:
+
+Simple Exponential Smoothing (alpha=0.3):
+Period 1 (2022-01): 52 units
+Period 2 (2022-02): 52 units
+Period 3 (2022-03): 52 units
+Period 4 (2022-04): 57 units
+Period 5 (2022-05): 71 units
+Period 6 (2022-06): 75 units
+Period 7 (2022-07): 72 units
+Period 8 (2022-08): 72 units
+Period 9 (2022-09): 60 units
+Period 10 (2022-10): 53 units
+Period 11 (2022-11): 48 units
+Period 12 (2022-12): 41 units
+
+Simple Exponential Smoothing (alpha=0.5):
+Period 1 (2022-01): 52 units
+Period 2 (2022-02): 52 units
+Period 3 (2022-03): 52 units
+Period 4 (2022-04): 60 units
+Period 5 (2022-05): 81 units
+Period 6 (2022-06): 84 units
+Period 7 (2022-07): 75 units
+Period 8 (2022-08): 72 units
+Period 9 (2022-09): 52 units
+Period 10 (2022-10): 44 units
+Period 11 (2022-11): 41 units
+Period 12 (2022-12): 32 units
+
+Holt's Method (alpha=0.5, beta=0.3):
+Period 1 (2022-01): 52 units
+Period 2 (2022-02): 52 units
+Period 3 (2022-03): 52 units
+Period 4 (2022-04): 63 units
+Period 5 (2022-05): 90 units
+Period 6 (2022-06): 96 units
+Period 7 (2022-07): 84 units
+Period 8 (2022-08): 78 units
+Period 9 (2022-09): 49 units
+Period 10 (2022-10): 35 units
+Period 11 (2022-11): 29 units
+Period 12 (2022-12): 18 units
+
+
+Forecast for next month (period 13):
+Simple Exponential Smoothing (alpha=0.3): 41 units
+Simple Exponential Smoothing (alpha=0.5): 36 units
+Holt's Method (alpha=0.5, beta=0.3): 24 units

@@ -1,0 +1,83 @@
+ARIMA Analysis Results for Top 10 Products
+=========================================
+
+
+Coca Cola - Zero Sugar
+----------------------
+Mean of residuals: 3.5473
+Std of residuals: 22.4589
+Skewness: 0.3788
+Kurtosis: -0.0404
+Next month forecast: 41.0000
+
+Monster Energy Original
+-----------------------
+Mean of residuals: 2.4773
+Std of residuals: 18.1822
+Skewness: 0.7994
+Kurtosis: -0.4890
+Next month forecast: 35.0000
+
+Poland Springs Water
+--------------------
+Mean of residuals: 5.5555
+Std of residuals: 13.6915
+Skewness: -0.5100
+Kurtosis: 0.6864
+Next month forecast: 42.0000
+
+Coca Cola - Regular
+-------------------
+Mean of residuals: 15.6752
+Std of residuals: 30.9974
+Skewness: -0.0939
+Kurtosis: -0.8751
+Next month forecast: 82.0000
+
+Sunkist Soda - Orange
+---------------------
+Mean of residuals: 2.7767
+Std of residuals: 11.4734
+Skewness: -0.0922
+Kurtosis: -0.7848
+Next month forecast: 28.0000
+
+KitKat - Crisp Wafers
+---------------------
+Mean of residuals: 1.0067
+Std of residuals: 16.1487
+Skewness: -0.2469
+Kurtosis: -0.9481
+Next month forecast: 5.0000
+
+Red Bull - Original
+-------------------
+Mean of residuals: 1.6455
+Std of residuals: 7.6064
+Skewness: 0.9256
+Kurtosis: 0.3938
+Next month forecast: 23.0000
+
+SunChips Multigrain - Harvest Cheddar
+-------------------------------------
+Mean of residuals: 1.0150
+Std of residuals: 9.8559
+Skewness: -0.3112
+Kurtosis: -0.8231
+Next month forecast: 14.0000
+
+CheezIt - Original
+------------------
+Mean of residuals: 2.4667
+Std of residuals: 10.1816
+Skewness: 0.4314
+Kurtosis: 0.0727
+Next month forecast: 21.0000
+
+SunChips Multigrain - Salsa
+---------------------------
+Mean of residuals: 2.9172
+Std of residuals: 8.8182
+Skewness: 0.1404
+Kurtosis: -1.4465
+Next month forecast: 15.0000

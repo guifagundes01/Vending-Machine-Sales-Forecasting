@@ -1,0 +1,7 @@
+Product,Forecast_Next_Month,RMSE,Safety_Stock_95,Order_Up_To_Level_95,Safety_Stock_99,Order_Up_To_Level_99
+Coca Cola - Regular,82.0,37.19734323524722,62.0,144.0,87.0,169.0
+Coca Cola - Zero Sugar,41.0,17.83723048807268,30.0,71.0,42.0,83.0
+Poland Springs Water,42.0,13.631065221334861,23.0,65.0,32.0,74.0
+Monster Energy Original,35.0,14.646559407347791,25.0,60.0,35.0,70.0
+Sunkist Soda - Orange,28.0,11.786725078153909,20.0,48.0,28.0,56.0
+Red Bull - Original,23.0,5.450517740357158,9.0,32.0,13.0,36.0

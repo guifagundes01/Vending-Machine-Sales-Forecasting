@@ -1,0 +1,46 @@
+Vending Machine Sales Analysis Summary
+=====================================
+
+Total Revenue: $19,094.75
+Total Transactions: 9,617
+Average Transaction Value: $1.99
+
+Top 5 Locations by Revenue:
+Location
+GuttenPlans          7005.75
+EB Public Library    6833.75
+Brunswick Sq Mall    3428.00
+Earle Asphalt        1827.25
+
+Top 5 Products by Revenue:
+Product
+Monster Energy Original    1552.0
+Coca Cola - Zero Sugar      987.0
+Red Bull - Original         812.0
+Poland Springs Water        702.5
+KitKat - Crisp Wafers       590.5
+
+Top 15 Products by Quantity Sold:
+Product
+Coca Cola - Zero Sugar                   661
+Monster Energy Original                  516
+Poland Springs Water                     457
+Coca Cola - Regular                      353
+Sunkist Soda - Orange                    290
+KitKat - Crisp Wafers                    274
+Red Bull - Original                      239
+SunChips Multigrain - Harvest Cheddar    235
+CheezIt - Original                       205
+SunChips Multigrain - Salsa              205
+
+Sales by Category:
+Category
+Food              9376.75
+Carbonated        5051.25
+Non Carbonated    2681.50
+Water             1221.25
+
+Payment Method Distribution:
+Type
+Cash      6243
+Credit    3374

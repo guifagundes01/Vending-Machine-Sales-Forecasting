@@ -37,21 +37,21 @@ def arima_forecast_and_mse(data, product_name=None):
     if len(data) < 6 or np.count_nonzero(data) < 3 or np.std(data) == 0:
         if product_name:
             print(f"ARIMA skipped for {product_name}: insufficient or constant data.")
-        return np.nan, np.nan
+        return np.nan, np.nan, np.nan
     try:
         model = ARIMA(data, order=(1, 1, 1))
         model_fit = model.fit()
-        forecast = model_fit.forecast(steps=1)[0]
+        forecast = model_fit.forecast(steps=2)  # Forecast 2 months ahead
         fitted = model_fit.fittedvalues
         # Explicitly skip the first fitted value
         y_true = data[1:]
         y_pred = fitted[1:]
         mse_val = mse(y_true, y_pred)
-        return math.ceil(forecast), mse_val
+        return math.ceil(forecast[0]), math.ceil(forecast[1]), mse_val
     except Exception as e:
         if product_name:
             print(f'ARIMA failed for {product_name}: {e}')
-        return np.nan, np.nan
+        return np.nan, np.nan, np.nan
 
 def main():
     df = pd.read_csv('vending_machine_sales.csv')
@@ -84,16 +84,19 @@ def main():
         # SES
         ses03 = simple_exponential_smoothing(data, 0.3)
         next_ses03 = math.ceil(0.3 * data[-1] + (1 - 0.3) * ses03[-1])
+        next_ses03_2 = math.ceil(0.3 * next_ses03 + (1 - 0.3) * ses03[-1])
         ses03_mse = mse(data[1:], ses03[1:])
         ses05 = simple_exponential_smoothing(data, 0.5)
         next_ses05 = math.ceil(0.5 * data[-1] + (1 - 0.5) * ses05[-1])
+        next_ses05_2 = math.ceil(0.5 * next_ses05 + (1 - 0.5) * ses05[-1])
         ses05_mse = mse(data[1:], ses05[1:])
         # Holt's method
         holt = holts_method(data, 0.5, 0.3)
         next_holt = math.ceil(holt[-1])
+        next_holt_2 = math.ceil(holt[-1] + (holt[-1] - holt[-2]))
         holt_mse = mse(data[1:], holt[1:-1])
         # ARIMA
-        next_arima, arima_mse = arima_forecast_and_mse(data, product)
+        next_arima, next_arima_2, arima_mse = arima_forecast_and_mse(data, product)
         results.append({
             'Product': product,
             'TotalQuantity': int(product_totals[product]),
@@ -101,13 +104,17 @@ def main():
             'MA3_MSE': ma3_mse if ma3_mse != '' else '',
             'MA5': int(ma5_val) if not np.isnan(ma5_val) else '',
             'MA5_MSE': ma5_mse if ma5_mse != '' else '',
-            'SES_0.3': next_ses03,
+            'SES_0.3_M1': next_ses03,
+            'SES_0.3_M2': next_ses03_2,
             'SES_0.3_MSE': ses03_mse,
-            'SES_0.5': next_ses05,
+            'SES_0.5_M1': next_ses05,
+            'SES_0.5_M2': next_ses05_2,
             'SES_0.5_MSE': ses05_mse,
-            'Holt': next_holt,
+            'Holt_M1': next_holt,
+            'Holt_M2': next_holt_2,
             'Holt_MSE': holt_mse,
-            'ARIMA': next_arima if not np.isnan(next_arima) else '',
+            'ARIMA_M1': next_arima if not np.isnan(next_arima) else '',
+            'ARIMA_M2': next_arima_2 if not np.isnan(next_arima_2) else '',
             'ARIMA_MSE': arima_mse if not np.isnan(arima_mse) else ''
         })
     # Sort by TotalQuantity

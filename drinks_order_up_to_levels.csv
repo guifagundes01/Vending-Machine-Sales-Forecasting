@@ -1,0 +1,11 @@
+Product,Category,Forecast_Next_Month,RMSE,Safety_Stock_95,Order_Up_To_Level_95,Safety_Stock_99,Order_Up_To_Level_99
+Coca Cola - Zero Sugar,Carbonated,41.0,17.83723048807268,42.0,83.0,42.0,83.0
+Coca Cola - Regular,Carbonated,82.0,37.19734323524722,87.0,169.0,87.0,169.0
+Red Bull - Original,Carbonated,23.0,5.450517740357158,13.0,36.0,13.0,36.0
+Starbucks Doubleshot Energy - Mocha,Non-Carbonated,8.0,5.420262737768623,13.0,21.0,13.0,21.0
+Snapple Tea - Lemon,Non-Carbonated,16.0,13.113128637157283,31.0,47.0,31.0,47.0
+Snapple Diet Tea - Lemon,Non-Carbonated,4.0,7.816576363139927,19.0,23.0,19.0,23.0
+Bai Antioxidant - Tanzania Lemon Super Tea,Non-Carbonated,8.0,4.204011577296674,10.0,18.0,10.0,18.0
+Keto Krisp - Almond Butter,Carbonated,2.0,3.4748552061213824,9.0,11.0,9.0,11.0
+Bai Antioxidant - Kupang strawberry kiwi,Non-Carbonated,2.0,2.778709664879729,7.0,9.0,7.0,9.0
+Bai Antioxidant - Brasilia BB,Non-Carbonated,1.0,0.8502441592312044,2.0,3.0,2.0,3.0

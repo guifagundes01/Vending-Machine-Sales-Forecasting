@@ -1,0 +1,152 @@
+Product,Forecast_Next_Month,RMSE,Safety_Stock_95,Order_Up_To_Level_95,Safety_Stock_99,Order_Up_To_Level_99
+Coca Cola - Zero Sugar,41.0,17.83723048807268,42.0,83.0,42.0,83.0
+Monster Energy Original,35.0,14.646559407347791,35.0,70.0,35.0,70.0
+Poland Springs Water,42.0,13.631065221334861,32.0,74.0,32.0,74.0
+Coca Cola - Regular,82.0,37.19734323524722,87.0,169.0,87.0,169.0
+Sunkist Soda - Orange,28.0,11.786725078153909,28.0,56.0,28.0,56.0
+KitKat - Crisp Wafers,5.0,15.297649391330417,36.0,41.0,36.0,41.0
+Red Bull - Original,23.0,5.450517740357158,13.0,36.0,13.0,36.0
+SunChips Multigrain - Harvest Cheddar,14.0,9.899669326136943,24.0,38.0,24.0,38.0
+CheezIt - Original,21.0,10.904514266364705,26.0,47.0,26.0,47.0
+SunChips Multigrain - Salsa,15.0,9.001208540020317,21.0,36.0,21.0,36.0
+Wonderful Pistachios - Variety,12.0,6.678231191613452,16.0,28.0,16.0,28.0
+Robert Irvine's - Fit Crunch -  Chocolate Pea,15.0,3.6588403414049533,9.0,24.0,9.0,24.0
+Goldfish Baked - Cheddar,9.0,12.198515083435469,29.0,38.0,29.0,38.0
+SunChips Multigrain - Original,13.0,7.7452604312512054,19.0,32.0,19.0,32.0
+Oreo Mini,7.0,10.718800329390001,25.0,32.0,25.0,32.0
+Snapple Tea - Raspberry,11.0,7.782653891962021,19.0,30.0,19.0,30.0
+Starbucks Doubleshot Energy - Mocha,8.0,5.420262737768623,13.0,21.0,13.0,21.0
+Snapple Diet Tea - Peach Tea,7.0,8.53037159644868,20.0,27.0,20.0,27.0
+Cheetos - Fleming Hot Crunchy,11.0,5.6037630508698095,14.0,25.0,14.0,25.0
+Starbucks Refresher - Real Coconut Water,10.0,6.582504029584363,16.0,26.0,16.0,26.0
+Snapple Tea - Lemon,16.0,13.113128637157283,31.0,47.0,31.0,47.0
+Funyuns - Flaming Hot,12.0,5.6684526275229565,14.0,26.0,14.0,26.0
+Kinder - Bueno - Crispy Creamy Chocolate,8.0,9.00555714193994,21.0,29.0,21.0,29.0
+Cheetos Flaming Hot Limon Crunchy,4.0,4.443110482454954,11.0,15.0,11.0,15.0
+Snapple Diet Tea - Lemon,4.0,7.816576363139927,19.0,23.0,19.0,23.0
+Takis - Hot Chilli Pepper & Lime,8.0,14.90317024948774,35.0,43.0,35.0,43.0
+Iberia Coconut Water,12.0,5.718832177962579,14.0,26.0,14.0,26.0
+Nature's Bakery Fig Bar - Raspberry,13.0,7.5602508726577655,18.0,31.0,18.0,31.0
+Lays - Classic,10.0,6.157531584102852,15.0,25.0,15.0,25.0
+Pop Corners - Sea Salt,11.0,6.773474950579323,16.0,27.0,16.0,27.0
+Takis FUGEO mini,20.0,7.846903798161507,19.0,39.0,19.0,39.0
+Nature's Bakery Fig Bar - Blueberry,12.0,7.151701185980228,17.0,29.0,17.0,29.0
+CheezIt - White Cheddar,13.0,3.8015213784209134,9.0,22.0,9.0,22.0
+Chesters Fries Flaming hot,8.0,6.649784778650324,16.0,24.0,16.0,24.0
+Miss Vickie's Potato Chip - Sea Salt Original,0.0,5.229725944624177,13.0,13.0,13.0,13.0
+Bai Antioxidant - Tanzania Lemon Super Tea,8.0,4.204011577296674,10.0,18.0,10.0,18.0
+Keto Bar - Creamy Peanut Butter Chocolate,10.0,7.7149159234053615,18.0,28.0,18.0,28.0
+S. Pellegrino Sparkling Mineral Water,1.0,5.149280120712891,12.0,13.0,12.0,13.0
+Snapple Tea - Peach,11.0,9.688447401543293,23.0,34.0,23.0,34.0
+Pop Corners - Kettle Corn,6.0,3.788622401655466,9.0,15.0,9.0,15.0
+Miss Vickie's Potato Chip - Sea Salt & Vinega,10.0,5.041128850798382,12.0,22.0,12.0,22.0
+Oreo Mini - Go Paks,8.0,2.820290009829083,7.0,15.0,7.0,15.0
+Doritos Famin Hot Nacho,10.0,7.539370327655373,18.0,28.0,18.0,28.0
+Mini Chips Ahoy,8.0,4.981562353050911,12.0,20.0,12.0,20.0
+Miss Vickie's Potato Chip - Smokehouse BBQ,3.0,3.4261515475796083,8.0,11.0,8.0,11.0
+CheezIt - Double Cheese,6.0,6.740458211414142,16.0,22.0,16.0,22.0
+Pop Corners - White Cheddar,8.0,6.953206363077443,17.0,25.0,17.0,25.0
+Spindrift - Sparkling Water  Lime,12.0,3.842802219662133,9.0,21.0,9.0,21.0
+Fritos - Original,6.0,4.872207113160716,12.0,18.0,12.0,18.0
+Miss Vickie's Potato Chip - Lime & Cracked Pe,15.0,3.8285669600765546,9.0,24.0,9.0,24.0
+Spindrift - Sparkling Water - Pineapple,3.0,6.499228674094186,16.0,19.0,16.0,19.0
+Miss Vickie's Potato Chip - Jalapeno,1.0,4.624828317043982,11.0,12.0,11.0,12.0
+Oreo Single Server 6 ct,25.0,13.438749543407276,32.0,57.0,32.0,57.0
+Good Health Veggie Stix - Sea Salt,,,,,,
+Lenny & Larrys - Chocolate Chip,8.0,3.518179166900064,9.0,17.0,9.0,17.0
+Doritos Spicy Nacho,7.0,8.773767903793571,21.0,28.0,21.0,28.0
+Pop Corners - Spicy Queso,7.0,3.8419716526481,9.0,16.0,9.0,16.0
+Doritos Nacho Cheese,6.0,6.098526216696513,15.0,21.0,15.0,21.0
+Newtons Fig Bar,4.0,2.9938111419846014,7.0,11.0,7.0,11.0
+SunChips Multigrain - French Onion,6.0,7.898976528700358,19.0,25.0,19.0,25.0
+CheezIt - Cheddar Sour Cream and Onion,5.0,4.054513993110318,10.0,15.0,10.0,15.0
+Lenny & Larrys - SnickerDoodle,6.0,2.864296825425738,7.0,13.0,7.0,13.0
+Canada Dry - Ginger Ale & Lemonde,-1.0,5.2668893470796,13.0,12.0,13.0,12.0
+RXBAR - Protein Bar - Chocolate Sea Salt,4.0,3.7510713612532225,9.0,13.0,9.0,13.0
+BodyArmor LYTE  - Peach Mango,7.0,1.6787441193262904,4.0,11.0,4.0,11.0
+Doritos Cool Ranch,4.0,4.89985125549051,12.0,16.0,12.0,16.0
+RXBAR - Protein Bar - Peanut Butter,2.0,2.9232437565927256,7.0,9.0,7.0,9.0
+Cheetos Puffs,9.0,5.023146479832478,12.0,21.0,12.0,21.0
+Pringles - Cheddar Cheese,6.0,4.986701895339682,12.0,18.0,12.0,18.0
+Seapoint Farms Dry Roasted Edamame - Wasabi,5.0,2.073047658697888,5.0,10.0,5.0,10.0
+BodyArmor LYTE - Strawberry Lemonade,4.0,4.356588261684686,11.0,15.0,11.0,15.0
+Pringles - Sour Cream & Onion,5.0,1.732288004558027,5.0,10.0,5.0,10.0
+Snyder's of Hanover Pretzel Pieces - Honey Mu,5.0,3.069245221214803,8.0,13.0,8.0,13.0
+Cheetos Cheddar Jalapeno,6.0,3.4808414683412434,9.0,15.0,9.0,15.0
+Ritz Bits Cheese,2.0,5.306406694457806,13.0,15.0,13.0,15.0
+Snapple Diet Tea - Raspberry,5.0,2.6643270803840764,7.0,12.0,7.0,12.0
+Belvita Snack Packs - Blueberry,,,,,,
+Jacks Links Bar Beef Strip,,,,,,
+Nutri Grain Apple Cinnamon,,,,,,
+Nutter Butter Bites,4.0,3.3259739459553446,8.0,12.0,8.0,12.0
+BodyArmor  LYTE - Blueberry Pomegranate,2.0,2.8480275200221508,7.0,9.0,7.0,9.0
+Simply Protein - Lemon Coconut,,,,,,
+Cheetos Baked - Crunchy Cheese,2.0,3.186146159685725,8.0,10.0,8.0,10.0
+CheezIt - Go Paks,5.0,3.1122664523189463,8.0,13.0,8.0,13.0
+Keto Krisp - Almond Butter,2.0,3.4748552061213824,9.0,11.0,9.0,11.0
+Lindens - Chocolate Chippers,,,,,,
+Cheetos - Crunchy,6.0,4.333847579884381,11.0,17.0,11.0,17.0
+Genius Keto Bar - Chocolate Dream,,,,,,
+Cheetos Baked - Flaming Hot,3.0,4.315384970860893,11.0,14.0,11.0,14.0
+Popchips Potato - Sea Salt,12.0,3.409377348267793,8.0,20.0,8.0,20.0
+V8 Vegetable Juice - Original,2.0,2.5658643010349933,6.0,8.0,6.0,8.0
+Mini Chips Ahoy - Go Paks,,,,,,
+Snyder's of Hanover Pretzel Pieces - Hot Buff,1.0,4.564882502905844,11.0,12.0,11.0,12.0
+Good Health Veggie Stix - Zesty Ranch,,,,,,
+Vitamin Water - Squeezed Lemonade,,,,,,
+Starbucks Doubleshot Energy - Coffee,1.0,3.3531462610944662,8.0,9.0,8.0,9.0
+Doritos Dinamita Chile Lemon,4.0,4.032298876930208,10.0,14.0,10.0,14.0
+Pringles - Original,,,,,,
+Ice Breakers Ice Cubes - PepperMint,3.0,2.1343201254991655,5.0,8.0,5.0,8.0
+Popchips Potato - Barbeque,2.0,3.5513655611221044,9.0,11.0,9.0,11.0
+Snyder's of Hanover Pretzel Pieces - Cheddar,,,,,,
+Snyder's of Hanover Pretzel - Cheddar Cheese,7.0,1.7264877256828637,5.0,12.0,5.0,12.0
+Jack Links Beef Steak Original,3.0,3.1266868263026435,8.0,11.0,8.0,11.0
+Simply Protein - Peanut Butter Chocolate,,,,,,
+Red Bull - Energy Drink - Sugar Free,4.0,3.5074007183731037,9.0,13.0,9.0,13.0
+Pop Corners - Sweet & Salty Kettle,3.0,3.2965364593362967,8.0,11.0,8.0,11.0
+Teddy Grahams - Go Paks,,,,,,
+Ruffles Baked  - Cheddar & Sour Cream,4.0,2.951734208130881,7.0,11.0,7.0,11.0
+Autumns Granola Bar - Cinnamon Almond,3.0,2.1245936606239377,5.0,8.0,5.0,8.0
+Pure Organic Fruit Bar - Strawberry Banana,2.0,2.1633551174708785,6.0,8.0,6.0,8.0
+Bai Antioxidant - Zambia Bingcherry,5.0,1.6164618206614045,4.0,9.0,4.0,9.0
+Vitamin Water - XXX Acai BB Pomegranate,4.0,2.7853831759340255,7.0,11.0,7.0,11.0
+Munchies Snack mix Flaming Hot,2.0,2.710794837035493,7.0,9.0,7.0,9.0
+Simply Protein - Dark Chocolate Sea Salt,,,,,,
+Skinny Pop Popcorn,,,,,,
+S. Pellegrino Essenza Mineral Water - Blood O,9.0,1.994129304184894,5.0,14.0,5.0,14.0
+Hersheys Milk Chocolate,,,,,,
+Keto Krisp - Almond/Chocolate,,,,,,
+Chum Fruit Bites - Mango/Strawberry,0.0,1.3893792597458061,4.0,4.0,4.0,4.0
+Bai Antioxidant - Kupang strawberry kiwi,2.0,2.778709664879729,7.0,9.0,7.0,9.0
+Hungry Buddha - Chocolate Chip,2.0,1.53311614141107,4.0,6.0,4.0,6.0
+Popchips Potato - Sour Cream & Onion,,,,,,
+Ritz Bits Peanut Butter,,,,,,
+Bai Antioxidant - Molokai Coconut,,,,,,
+Lays Baked - Original,,,,,,
+Vitamin Water - Ice Cool Blue Lavender,,,,,,
+Monster Energy  Zero Ultra,3.0,1.1677484162414706,3.0,6.0,3.0,6.0
+Bai Lemonade - Burundi Blueberry,,,,,,
+Nature's Garden Trail Mix - Cranberry Healthy,1.0,1.3338295267271651,4.0,5.0,4.0,5.0
+NuGo Dark Chocolate - Choc Chip,,,,,,
+Stretch Island Fruit Leathers Snacks - Variet,,,,,,
+Orchard Bar - Variety,,,,,,
+Keep Healthy - Chocolate Fudge,,,,,,
+Zevia Zero Calorie Energy - Mango Ginger,1.0,1.0265409525317137,3.0,4.0,3.0,4.0
+Hungry Buddha - Coconut Cocoa,,,,,,
+Belvita Breakfast Biscuit Bites - Blueberry,4.0,1.0690449676509326,3.0,7.0,3.0,7.0
+NuGo Dark Chocolate - Pretzel Sea Salt,,,,,,
+Keto Bar - Chocolate Dream,,,,,,
+Bai Antioxidant - Brasilia BB,1.0,0.8502441592312044,2.0,3.0,2.0,3.0
+BodyArmor LYTE  - Berry Punch,1.0,0.9846064425450395,3.0,4.0,3.0,4.0
+Belvita Snack Bites - Cinnamon BS Go Paks,,,,,,
+Oberto Specialty Meats - Original,,,,,,
+Pure Organic Fruit Bar - Raspberry Lemonade,,,,,,
+Bubly - Cherry,,,,,,
+Zevia Organic Tea - Peach,,,,,,
+Made in Nature - Mangoes Sweet & Tangy,1.0,0.8807520913830156,3.0,4.0,3.0,4.0
+Nature's Garden Trail Mix - Heart Healthy Mix,,,,,,
+Nature's Garden Trail Mix - Omega 3,,,,,,
+Keep Healthy - Sea Salt Brownie,,,,,,
+Lays Baked - Barbecue,,,,,,
+Belvita Snack Packs - Cinnamon,,,,,,

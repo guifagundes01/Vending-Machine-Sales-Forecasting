@@ -1,0 +1,20 @@
+Order-Up-To Level Analysis for Top Snacks (2-Month Cycle)
+===================================================
+
+Total Products Analyzed: 3
+
+Detailed Product Analysis (95% Service Level):
+---------------------------------------------------------------------------------------------------------------
+Product                                    Month1   Month2      Total Demand        Safety Stock        Order-Up-To
+---------------------------------------------------------------------------------------------------------------------
+CheezIt - Original                           21.0     23.0              44.0                26.0               70.0
+SunChips Multigrain - Salsa                  15.0     16.0              31.0                21.0               52.0
+SunChips Multigrain - Harvest Cheddar        14.0     13.0              27.0                24.0               51.0
+
+Detailed Product Analysis (99% Service Level):                      
+---------------------------------------------------------------------------------------------------------------
+Product                                    Month1   Month2      Total Demand        Safety Stock        Order-Up-To
+---------------------------------------------------------------------------------------------------------------
+CheezIt - Original                           21.0     23.0              44.0                36.0               80.0
+SunChips Multigrain - Salsa                  15.0     16.0              31.0                30.0               61.0
+SunChips Multigrain - Harvest Cheddar        14.0     13.0              27.0                33.0               60.0
